@@ -1,0 +1,15 @@
+.nav ul {
+    display: flex;
+    column-gap: 20px;
+    list-style-type: none;
+}
+
+.nav ul li a {
+    color: var(--black);
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.nav ul li a:hover {
+    color: var(--midBlue);
+}

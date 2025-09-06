@@ -1,0 +1,85 @@
+:root {
+    --red: #D01C28;
+    --gray: #2e2e2e
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header .headerBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header .headerBox nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    column-gap: 20px;
+}
+
+header .headerBox nav ul a {
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--gray);
+}
+
+header .headerBox button {
+    border: none;
+    padding: 10px 20px;
+    background-color: var(--red);
+    color: white;
+    cursor: pointer;
+}
+
+.hero-sec {
+    display: flex;
+    align-items: center;
+}
+
+.hero-sec .btn-box {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.btn-red {
+    border: none;
+    padding: 10px 20px;
+    background-color: var(--red);
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-gray {
+    border: 1px solid var(--gray);
+    padding: 10px 20px;
+    color: var(--gray);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.title1 {
+    font-size: 100px;
+    line-height: 1;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 300px) {
+    .hero-sec .para1 {
+        width: 63%;
+    }
+}

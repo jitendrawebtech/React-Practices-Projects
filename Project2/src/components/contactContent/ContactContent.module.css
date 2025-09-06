@@ -1,0 +1,8 @@
+.contactTitle {
+    font-size: 50px;
+    color: var(--black);
+}
+
+.contactPara {
+    color: var(--gray);
+}

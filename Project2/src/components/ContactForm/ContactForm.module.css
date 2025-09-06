@@ -1,0 +1,41 @@
+.btnBox {
+    display: flex;
+    gap: 20px;
+}
+
+.formBox {
+    display: flex;
+    align-items: center;
+}
+
+.formBox>div {
+    flex-basis: 50%;
+}
+
+.contactForm form>div {
+    position: relative;
+    width: 350px;
+}
+
+.contactForm form>div label {
+    position: absolute;
+    top: -10px;
+    left: 14px;
+    background-color: var(--white);
+    padding-left: 5px;
+    padding-right: 5px;
+    font-style: 14px;
+}
+
+.contactForm form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contactForm input,
+.contactForm textarea {
+    width: 100%;
+    padding: 10px 0;
+    text-indent: 10px;
+}

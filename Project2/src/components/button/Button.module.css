@@ -1,0 +1,15 @@
+.btn1 {
+    border: none;
+    padding: 10px 20px;
+    vertical-align: center;
+    color: var(--white);
+    background-color: var(--black);
+}
+
+.outlineBtn {
+    border: 1px solid var(--black);
+    background-color: transparent;
+    padding: 10px 20px;
+    vertical-align: center;
+    color: var(--black);
+}
